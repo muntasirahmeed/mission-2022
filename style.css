@@ -1,7 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0px;
-    
+    margin: 0px; 
 }
 h1{
     font-size: 50px;
@@ -10,14 +9,14 @@ h1{
 .coloring-text{
     color:rgb(253, 135, 0);
 }
+.flexible-container{
+    display: flex;
+}
 .first-section{
     margin:0px 65px;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 40px;
-}
-.flexible-container{
-    display: flex;
 }
 .half-width{
     width: 50%;
@@ -29,12 +28,13 @@ h1{
     margin-right: auto;
     display: block;
 }
-.left-border{
-    
+#first-div{
+    padding: 60px 20px 10px 0px;
+}
+.left-border{ 
     border-left: 6px solid rgb(255, 123, 0);
     padding:-50px 50px;
     padding-left: 40px;
-    
 }
 .button{
     text-decoration: none;
@@ -43,10 +43,6 @@ h1{
     padding: 4px 10px;
     border-radius: 5px;
 }
-#first-div{
-    padding: 60px 20px 10px 0px;
-}
-
 .second-section{
    padding-top: 20px;
     margin:0px 65px;
@@ -60,7 +56,6 @@ h1{
     font-weight: 700;
 }
 .mission{
-   
     padding: 15px;
     width: 50%;
     margin: 10px;
@@ -78,6 +73,10 @@ h1{
 #box3{
     background-color: rgba(255, 158, 47, 0.315);
 }
+.third-section{
+    margin:0px 65px;
+    
+}
 .documents-area{
     width: 50%;
     padding: 15px;
@@ -86,21 +85,8 @@ h1{
 .documents-area img{
     width: 70%;
 }
-.third-section{
-    margin:0px 65px;
-    
-}
-  
 .fourth-section{
 margin:0px 65px;
-
-}
-
-footer{
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 10px 0px;
 
 }
 .fifth-section{
@@ -116,9 +102,15 @@ button{
     font-weight: 700;
     padding: 5px 10px;
     border-radius: 5px;
-
 }
 #form-header{
     text-align: center;
     font-size: 35px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+
 }
