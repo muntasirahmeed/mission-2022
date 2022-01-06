@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    
 }
 h1{
     font-size: 50px;
@@ -10,9 +11,10 @@ h1{
     color:rgb(253, 135, 0);
 }
 .first-section{
-    margin: 5%;
+    margin:0px 65px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 40px;
 }
 .flexible-container{
     display: flex;
@@ -46,10 +48,11 @@ h1{
 }
 
 .second-section{
-    margin: 5%;
+   padding-top: 20px;
+    margin:0px 65px;
     padding-left: 50px;
     padding-right: 50px;
-    
+    padding-bottom: 30px;
 }
 #myvission{
     text-align: center;
@@ -81,14 +84,41 @@ h1{
     margin: 5%;
 }
 .documents-area img{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-
+    width: 70%;
 }
 .third-section{
-    margin: 45px;  
-   
+    margin:0px 65px;
     
+}
+  
+.fourth-section{
+margin:0px 65px;
+
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+
+}
+.fifth-section{
+    margin:0px 65px;
+}
+.form{
+    padding: 5%;
+}
+button{
+    background-color: green;
+    color: white;
+    font-size: 28;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+#form-header{
+    text-align: center;
+    font-size: 35px;
 }
